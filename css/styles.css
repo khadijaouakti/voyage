@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body
+{
+	background: #6299c3;
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+.logo
+{
+	color: #112434;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+}
+.navigation
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.navigation li
+{
+	list-style: none;
+}
+.navigation li a
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #112434;
+	border-radius: 20px;
+}
+.navigation li a:hover,
+.navigation li a.active
+{
+	background: #112434;
+	color: #fff;
+}
+.aventure
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+.aventure img
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+#text
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 4em;
+	color: #112434;
+}
+.sec
+{
+	position: relative;
+	padding: 100px;
+	background: #112434;
+}
+.sec h2
+{
+	font-size: 3em;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+.sec p
+{
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
+}
+.container
+{
+	position: relative;
+	width: 11OOpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.download-button {
+	display: inline-block;
+	padding: 12px 30px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	color: #fff;
+	background-color: transparent;
+	border-radius: 50px;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  }
+  
+  .download-button:hover {
+	background-color: #fff;
+	color: #333;
+  }
+  .button-container {
+	text-align: center;
+  }
+  #form {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-left: 30%;
+  }
+
